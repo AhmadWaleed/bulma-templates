@@ -1,66 +1,35 @@
 html,body {
-  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
-  height: 100%;
-  padding: 0;
-  margin: 0;
+  font-family: 'Open Sans', serif;
+  font-size: 14px;
+  font-weight: 300;
 }
-
-.email-input,
-.password-input {
-  border-radius: 40px;
-  font-size: 20px;
-  padding-left: 15px;
-  color: #95A5A6;
+.hero.is-success {
+  background: #F2F6FA;
 }
-
-.icon.user,
-.icon.password {
-  margin: 5px 10px 0 0;
+.hero .nav, .hero.is-success .nav {
+  -webkit-box-shadow: none;
+  box-shadow: none;
 }
-
+.box {
+  margin-top: 5rem;
+}
+.avatar {
+  margin-top: -70px;
+  padding-bottom: 20px;
+}
 .avatar img {
-  border-radius: 100px;
   padding: 5px;
-  border: 1px solid #dbdbdb;
+  background: #fff;
+  border-radius: 50%;
+  -webkit-box-shadow: 0 2px 3px rgba(10,10,10,.1), 0 0 0 1px rgba(10,10,10,.1);
+  box-shadow: 0 2px 3px rgba(10,10,10,.1), 0 0 0 1px rgba(10,10,10,.1);
 }
-
-.forgot-password a {
-  color: #95A5A6;
-  font-weight: bold;
-  padding-right: 20px;
+input {
+  font-weight: 300;
 }
-
-.login {
-  padding-top: 20px;
+p {
+  font-weight: 700;
 }
-
-.login button {
-  border-radius: 40px;
-  font-weight: bold;
-}
-
-.hero-body .container {
-  margin-top: -100px;
-}
-
-.hero.is-dark .section {
-  background-color: transparent;
-}
-
-.login-wrapper {
-  margin: -0.75rem;
-  overflow-y: hidden;
-}
-
-.hero-banner .hero {
-  background: url('https://unsplash.it/2000/1000');
-  background-position: center;
-  background-size: cover;
-  background-blend-mode: screen;
-}
-
-.hero-banner .title {
-  display: inline-block;
-  background-color: rgba(0,0,0, 0.6);
-  padding: 5px;
+p.subtitle {
+  padding-top: 1rem;
 }
